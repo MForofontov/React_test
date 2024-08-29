@@ -1,7 +1,4 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
+/* ColorPicker */
 .color-picker-container{
     display: flex;
     flex-direction: column;
@@ -36,4 +33,80 @@ body{
     padding: 5px;
     border-radius: 10px;
     border: 3px solid hsl(0, 0%, 80%);
+}
+
+/* ToDoList */
+.to-do-list-container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.to-do-list-container h1{
+    font-size: 4rem;
+}
+
+.to-do-list-container button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    margin: 5px;
+}
+.add-task-button{
+    background-color: hsl(120, 91%, 33%);
+}
+
+.add-task-button:hover{
+    background-color: hsl(120, 91%, 23%);
+}
+.delete-button{
+    background-color: hsl(342, 100%, 50%);
+}
+
+.delete-button:hover{
+    background-color: hsl(342, 100%, 40%);
+}
+.move-button{
+    background-color: hsl(224, 100%, 50%);
+}
+
+.move-button:hover{
+    background-color: hsl(224, 100%, 40%);
+}
+
+.to-do-list-container input[type="text"]{
+    font-size: 1.6rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 0%, 80%);
+    margin-bottom: 1rem;
+}
+.to-do-list-container ol{
+    list-style-type: none;;
+}
+
+.list-tasks{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 97%);
+    border: 3px hsl(0, 0%, 85%, 0.75);
+    display: flex;
+    align-items: center;
+}
+
+.tasks-name-list{
+    flex: 1;
+}
+
+.delete-button .move-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
 }
