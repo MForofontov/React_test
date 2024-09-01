@@ -6,11 +6,13 @@ import UpdateStateArrayObjects from './UpdateStateArrayObjects.jsx'
 import ToDoList from './ToDoList.jsx'
 import UseEffectExample from './UseEffectExample1.jsx'
 import UseEffectExample2 from './UseEffectExample2.jsx'
+import DigitalClock from './DigitalClock.jsx'
+import './index.css'
 
 function App() {
   return (
     <div className="app-container">
-      <UseEffectExample2 />
+      <DigitalClock />
     </div>
   )
 }

@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 80%);
+    margin-bottom: 25px;
+}
+
+.controls button{
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s, ease;
+}
+
+.start-button{
+    background-color: hsl(120, 100%, 30%);
+}
+
+.start-button:hover{
+    background-color: hsl(120, 100%, 25%);
+}
+
+.stop-button{
+    background-color: hsl(0, 100%, 30%);
+}
+
+.stop-button:hover{
+    background-color: hsl(0, 100%, 25%);
+}
+
+.reset-button{
+    background-color: hsl(202, 100%, 50%);
+}
+
+.reset-button:hover{
+    background-color: hsl(202, 100%, 45%);
+}
